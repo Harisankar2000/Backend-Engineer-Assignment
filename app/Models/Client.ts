@@ -8,13 +8,22 @@ export default class Client extends BaseModel {
   public id: number
 
   @column()
-  public name: string
+  public client_number?: string
+
+  @column()
+  public legal_name: string
+
+  @column()
+  public client_type?: string
 
   @column()
   public email?: string
 
   @column()
-  public phoneNumber?: string
+  public phone?: string
+  
+  @column()
+  public gstin?: string
 
   @column()
   public pan?: string

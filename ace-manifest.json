@@ -24,10 +24,20 @@
       "aliases": [],
       "flags": []
     },
+    "process:client": {
+      "settings": {
+        "loadApp": true
+      },
+      "commandPath": "./commands/ProcessClient",
+      "commandName": "process:client",
+      "description": "process excel client into database",
+      "args": [],
+      "aliases": [],
+      "flags": []
+    },
     "process:file": {
       "settings": {
-        "loadApp": true,
-        "stayAlive": true
+        "loadApp": true
       },
       "commandPath": "./commands/ProcessFile",
       "commandName": "process:file",
